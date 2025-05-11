@@ -10,11 +10,16 @@
     <h1>Caixa Eletronico 24 Horas</h1>
     <h2 id="saldo">Saldo: R$ 0,00</h2>
 
-    <input type="number" id="valordeposito" placeholder="Valor a Depositar">
+    <div class="containerDeposito">
+    <input type="number" id="valorDeposito" placeholder="Valor a Depositar">
     <button onclick="caixaEletronico.depositar()">Depositar</button>
+    </div>
 
-    <input type="number" id="valorsaque" placeholder="valor a Sacar">
+    <div class="containerSaque">
+    <input type="number" id="valorSaque" placeholder="valor a Sacar">
     <button onclick="caixaEletronico.sacar()">Sacar</button>
+    </div>
+
 
     <script src="script.js"></script>
     

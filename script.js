@@ -1,4 +1,4 @@
-class contaBancaria {
+class ContaBancaria {
     #saldo;
     constructor() {
         this.#saldo = 0;
@@ -21,13 +21,13 @@ class contaBancaria {
     }
 }
 
-class caixaEletronico {
+class CaixaEletronico {
     constructor(conta) {
         this.conta = conta;
     }
 
     depositar() {
-        const valorDeposito = parseFloat(document.getElementById("valordeposito").value);
+        const valorDeposito = parseFloat(document.getElementById("valorDeposito").value);
 
         if (isNaN(valorDeposito) || valorDeposito <= 0) {
             alert("Insira um valor válido para depósito.");
@@ -39,7 +39,7 @@ class caixaEletronico {
     }
 
     sacar() {
-        const valorSaque = parseFloat(document.getElementById("valorsaque").value);
+        const valorSaque = parseFloat(document.getElementById("valorSaque").value);
 
         if (isNaN(valorSaque) || valorSaque <= 0) {
             alert("Insira um valor válido para saque.");
@@ -56,10 +56,10 @@ class caixaEletronico {
 
     mostrarSaldo(saldo) {
         document.getElementById("saldo").textContent = `Saldo: R$ ${saldo.toFixed(2)}`;
-        document.getElementById("valordeposito").value = '';
-        document.getElementById("valorsaque").value = '';
+        document.getElementById("valorDeposito").value = '';
+        document.getElementById("valorSaque").value = '';
     }
 }
 
-const conta = new contaBancaria();
-const caixaEletronico = new caixaEletronico(conta);
+const conta = new ContaBancaria();
+const caixaEletronico = new CaixaEletronico(conta);

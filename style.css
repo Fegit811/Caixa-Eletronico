@@ -1,0 +1,114 @@
+/* style.css */
+
+body{
+    background-color: red; /*Fundo Vermelho*/
+    color: white;/*Todas as letras em branco*/
+    display: flex; /*Centralizar conteudo*/
+    justify-content: center; /*Centraiza Horizontalmente*/
+    align-items: center; /* Centraliza verticalmente*/
+    height: 100vh; /* Garante que o conteiner ocupe toda a altura da Tela*/
+    width: 200px;/* Define um tamanho menor para os campos*/
+    padding: 10px; /* Espaçamento interno*/
+    text-align: center; /* Centraliza o texto dentro do campo*/
+    flex-direction: column;
+    gap: 20px;
+
+}
+h1{
+    font-size: 48px; /*Ddefine um tamanho grande para o titulo*/
+    font-weight: bold; /*Deixa o Texto mais destacado*/
+    text-align: center; /*Centraliza o texto horizontalmente*/
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Centraliza perfeitamente na tela*/
+}
+
+h2{
+    font-size: 48px; /*Ddefine um tamanho grande para o titulo*/
+    font-weight: bold; /*Deixa o Texto mais destacado*/
+    text-align: center; /*Centraliza o texto horizontalmente*/
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Centraliza perfeitamente na tela*/
+}
+
+.containerDeposito {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    width: 100%;
+
+  input {
+    width: 300px; /* Aumenta a largura do campo de entrada */
+    height: 50px; /* Aumenta a altura */
+    font-size: 20px; /* Aumenta o tamanho do texto */
+    padding: 10px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro do campo */
+    gap: 50px;  
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  button {
+    width: 200px; /* Define um tamanho maior para o botão */
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px; /* Adiciona um espaço entre o campo e o botão */
+    background-color: darkgreen; /*Altera a cor de fundo do botão*/
+    color: white; /*Define a cor do texto*/
+    padding: 10px 20px;/*Ajusta o tamanho do botão*/
+    border: none; /*Remove a borda*/
+    border-radius: 5px; /*Adiciona cantos arrendondados*/
+    gap: 50px;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+  }
+  }
+
+  .containerSaque {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    width: 100%;
+
+  input {
+    width: 300px; /* Aumenta a largura do campo de entrada */
+    height: 50px; /* Aumenta a altura */
+    font-size: 20px; /* Aumenta o tamanho do texto */
+    padding: 10px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro do campo */
+    gap: 50px;  
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  button {
+    width: 200px; /* Define um tamanho maior para o botão */
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px; /* Adiciona um espaço entre o campo e o botão */
+    background-color: darkgreen; /*Altera a cor de fundo do botão*/
+    color: white; /*Define a cor do texto*/
+    padding: 10px 20px;/*Ajusta o tamanho do botão*/
+    border: none; /*Remove a borda*/
+    border-radius: 5px; /*Adiciona cantos arrendondados*/
+    gap: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+  }}
